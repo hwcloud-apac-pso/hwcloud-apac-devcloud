@@ -60,17 +60,7 @@ Terraform by HashiCorp, is an “infrastructure as code” that allows you  to b
 
 ```Usage: terraform  [-version] [-help] <command> [args]```
  
-```The available commands for execution are listed below.```
-
-```The most common, useful commands are shown first,```
-
-```followed by less common or more advanced commands.```
-
-```If you're just with  Terraform, stick with the common commands.```
-
-```For the other commands, please read the help and docs before usage.```
-
-```##...```
+```The available commands for execution are listed below. The most common, useful commands are shown first, followed by less common or more advanced commands. If you're just with Terraform, stick with the common commands. For the other commands, please read the help and docs before usage. ##...```
 
 * Note: If you get an error that Terraform could not be found, your PATH environment variable was not set up properly. Please go back and ensure that your PATH variable contains the directory where Terraform was installed.
 
