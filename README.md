@@ -353,17 +353,19 @@ Step 7: Enter the Kubernetes URL and content of Kubeconfig that obtained in Step
 
 <p align="center"> Figure 5.18 : CloudDeploy - Kubernetes Service Endpoints Configuration </p>
 
-Step 8: Use kubectl apply command in this task and the file source is the yaml files that stored in Release repository. 
+Step 8: Use kubectl apply command in this task and the file source is the yaml files that stored in Release repository. Enter the folder directory where we stored the deployment code. Click the save button once the configuration done.
 
 ![figure5.19](./images/figure5.19.jpg)
+![figure5.20](./images/figure5.20.jpg)
 
 <p align="center"> Figure 5.19 : CloudDeploy - Deploy an Application on Kubernetes Cluster Configuration </p>
 
-Step 9: Enter the folder directory where we stored the deployment code. Click the save button once the configuration done.
+Step 9: Configure next task by using two different functions such as run shell commands and run shell scripts as shown in Figure below to conduct the unit test.
 
-![figure5.20](./images/figure5.20.jpg)
+![figure5.20a](./images/figure5.20a.jpg)
+![figure5.20b](./images/figure5.20b.jpg)
 
-<p align="center"> Figure 5.20 : CloudDeploy - Deploy an Application on Kubernetes Cluster Configuration </p>
+<p align="center"> Figure 5.20 : CloudDeploy - Unit Test in Testing Environment </p>
 
 ##### 5.1.3 CloudPipeline
 CloudPipeline combined all the pre-configured tasks such as CodeHub, CloudBuild and CloudDeploy to automate the process of code development, application containerization, image tagging, version control, and application deployment in the Kubernetes cluster of Cloud Container Engine.
@@ -405,9 +407,10 @@ Step 6: Configure the workflows for the pipeline. Click the plus sign button and
 
 <p align="center"> Figure 5.26 : CloudPipeline - Workflow Configuration </p>
 
-Step 7: Configure the next task by setting the same parameter as previous step. This task is to deploy the application to CCE cluster, select the task that had configured previously in CloudDeploy as shown in Figure 5.27.
+Step 7: Configure the next task by setting the same parameter as previous step. This task is to deploy the application to CCE cluster, select the task that had configured previously in CloudDeploy as shown in Figure 5.27. Next, configure another task for unit test that had pre-configured in previous step.
 
 ![figure5.27](./images/figure5.27.jpg)
+![figure5.27b](./images/figure5.27b.jpg)
 
 <p align="center"> Figure 5.27 : CloudPipeline - Workflow Configuration </p>
 
