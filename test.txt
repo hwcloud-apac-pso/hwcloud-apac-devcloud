@@ -1,0 +1,19 @@
+git clone git@github.com:terraform-hwcloud-apac-pso-modules/hwcloud-apac-pso-solutions.git
+
+#### 注意查看下面的core代码段，添加如下：
+sshCommand = ssh -i ~/.ssh/solutions
+
+kook@DESKTOP-LM5T2OJ:/mnt/d/Github/terraform-hwcloud-modules$ cat hwcloud-apac-pso-solutions/.git/config
+[core]
+        repositoryformatversion = 0
+        filemode = false
+        bare = false
+        logallrefupdates = true
+        ignorecase = true
+        sshCommand = ssh -i ~/.ssh/solutions
+[remote "origin"]
+        url = git@github.com:terraform-hwcloud-apac-pso-modules/hwcloud-apac-pso-solutions.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
