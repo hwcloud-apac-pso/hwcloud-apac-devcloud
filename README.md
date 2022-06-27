@@ -362,8 +362,8 @@ Step 8: Use kubectl apply command in this task and the file source is the yaml f
 
 Step 9: Configure next task by using two different functions such as run shell commands and run shell scripts as shown in Figure below to conduct the unit test.
 
-![figure5.20a](./images/figure5.20a.jpg)
-![figure5.20b](./images/figure5.20b.jpg)
+![figure5.20a](./images/figure5.20a.png)
+![figure5.20b](./images/figure5.20b.png)
 
 <p align="center"> Figure 5.20 : CloudDeploy - Unit Test in Testing Environment </p>
 
@@ -410,7 +410,7 @@ Step 6: Configure the workflows for the pipeline. Click the plus sign button and
 Step 7: Configure the next task by setting the same parameter as previous step. This task is to deploy the application to CCE cluster, select the task that had configured previously in CloudDeploy as shown in Figure 5.27. Next, configure another task for unit test that had pre-configured in previous step.
 
 ![figure5.27](./images/figure5.27.jpg)
-![figure5.27b](./images/figure5.27b.jpg)
+![figure5.27b](./images/figure5.27b.png)
 
 <p align="center"> Figure 5.27 : CloudPipeline - Workflow Configuration </p>
 
